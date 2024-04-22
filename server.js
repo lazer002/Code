@@ -34,7 +34,7 @@ app.get("*", (req, res) => {
     }
     )
 })
-
+// ajit bhai
 app.use('/',router)
 
 const PORT = process.env.PORT;
